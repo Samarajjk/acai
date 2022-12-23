@@ -1,0 +1,64 @@
+* {margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    
+    header {background-color: #811d6681;
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    width: cover;
+    }
+    
+    #icon {width: 90px;
+    height: 90px;
+    justify-content: left;}
+    
+    a {
+    color: white;
+    text-decoration: none;
+    margin: auto;
+    }
+    
+    header a:hover {color: #a254a5;
+    text-decoration: underline;
+    text-shadow: 1px 1px black;}
+    
+    body {background-image: url(https://dahorabrasil.com.br/wp-content/uploads/2018/10/dica-do-tuco-propriedade-do-acai.jpg);
+    background-size: 100%;
+    font-family: "Panton", Sans-serif;}
+
+    main {background-color: rgba(255, 255, 255, 0.486);
+        display: flex;
+        padding: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+
+.contatos { 
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h3 {margin: 10px;
+}
+
+.mensagem {margin-left: 50px;}
+
+form {display: flex;
+flex-direction: column;
+}
+
+label, #button {margin-top: 10px;
+}
+
+footer {background-color: #811d6681;
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+margin-top: 20px;}
+    
+    footer p {color: white;
+    text-align: center;}
+    
+    footer a:hover {text-decoration: underline;}
